@@ -30,16 +30,18 @@
 graduate-project/
 ├── CLAUDE.md                       # AI協調・開発ガイドライン
 ├── docs/                           # 設計書・仕様書・論文ドキュメント
-│   └── exp-reproduce/              # 再現実験用ドキュメント群
-│       ├── 00-overview.md          # 本ファイル（プロジェクト全体概要）
-│       ├── 01-openquestion.md      # 未解決課題・検討事項管理表
-│       ├── 02-processing-flow.md   # 詳細処理フロー設計書
-│       ├── 03-impl-rule.md         # 実装規約書（モジュール設計・型規約・テスト）
-│       ├── 04-impl-plan.md         # プログラム設計書（データ受け渡し契約・型定義）
-│       ├── 05-steps/               # 各ステップ別 main.py 実装計画書 (全8ステップ)
-│       ├── 06-orchestration.md     # パイプライン・オーケストレーション設計書
-│       └── paper/
-│           └── fnimg-4-1479569.pdf # 参照論文 (Gomez-Tapia et al., 2025)
+│   ├── exp-reproduce/              # 再現実験用ドキュメント群
+│   │   ├── 00-overview.md          # 本ファイル（プロジェクト全体概要）
+│   │   ├── 01-openquestion.md      # 未解決課題・検討事項管理表
+│   │   ├── 02-processing-flow.md   # 詳細処理フロー設計書
+│   │   ├── 03-impl-rule.md         # 実装規約書（モジュール設計・型規約・テスト）
+│   │   ├── 04-impl-plan.md         # プログラム設計書（データ受け渡し契約・型定義）
+│   │   ├── 05-steps/               # 各ステップ別 main.py 実装計画書 (全8ステップ)
+│   │   ├── 06-orchestration.md     # パイプライン・オーケストレーション設計書
+│   │   ├── outputs.md              # Phase 1 成果・ノウハウ集約記録
+│   │   └── paper/
+│   │       └── fnimg-4-1479569.pdf # 参照論文 (Gomez-Tapia et al., 2025)
+│   └── agy/                        # アーキテクチャ決定記録 (ADR)
 ├── exp-reproduce/                  # 再現実験プログラム・環境 (Python 3.10)
 └── eeg-processing/                 # 本番研究用EEG解析プログラム本体
 ```
@@ -93,4 +95,6 @@ gantt
 - **[docs/exp-reproduce/04-impl-plan.md](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/04-impl-plan.md)**: プログラム設計書（モジュール間データ受け渡し契約・型定義）
 - **[docs/exp-reproduce/05-steps/](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/05-steps/)**: 各ステップ別 `main.py` 実装計画書（Step 0-A 〜 Step 5）
 - **[docs/exp-reproduce/06-orchestration.md](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/06-orchestration.md)**: パイプライン・オーケストレーション設計書（`main.py` 結合実行設計）
+- **[docs/exp-reproduce/outputs.md](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/outputs.md)**: Phase 1 成果・ノウハウ集約記録
+- **[docs/agy/](file:///Users/shumasui/Documents/school/graduate-project/docs/agy/)**: アーキテクチャ決定記録 (ADR)
 - **[docs/exp-reproduce/paper/fnimg-4-1479569.pdf](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/paper/fnimg-4-1479569.pdf)**: 参照論文 (*Evaluation of EEG pre-processing and source localization in ecological research*)

@@ -12,10 +12,13 @@
 .
 ├── CLAUDE.md           # 本ファイル（プロジェクト方針・開発ガイドライン）
 ├── docs/               # 設計書、仕様、研究ノートなどのドキュメント
-└── eeg-processing/     # EEG解析用プログラム本体（Python）
+│   ├── exp-reproduce/  # Phase 1 再現実験ドキュメント群
+│   └── agy/            # アーキテクチャ決定記録 (ADR)
+├── exp-reproduce/      # Phase 1 再現実験プログラム本体 (Python 3.10)
+└── eeg-processing/     # Phase 2 卒業研究本番用プログラム本体
 ```
 
-- **`docs/`**: 設計方針、データ仕様、解析パイプラインの定義、研究メモ等のドキュメントを格納します。各Phaseの結果やノウハウは `docs/<Phase名>/outputs.md` に記録します。
+- **`docs/`**: 設計方針、データ仕様、解析パイプラインの定義、ADR（`docs/agy/`）、研究メモ等のドキュメントを格納します。各Phaseの結果やノウハウは `docs/<Phase名>/outputs.md` に記録します。
 - **`exp-reproduce/`**: Phase 1（再現実験）のプログラムコードおよび検証スクリプトを格納します。
 - **`eeg-processing/`**: 卒業研究本番用の高密度EEGデータ処理・解析プログラムコードを格納します。
 
