@@ -39,6 +39,7 @@ graduate-project/
 │   │   ├── 05-steps/               # 各ステップ別 main.py 実装計画書 (全8ステップ)
 │   │   ├── 06-orchestration.md     # パイプライン・オーケストレーション設計書
 │   │   ├── outputs.md              # Phase 1 成果・ノウハウ集約記録
+│   │   ├── report/                 # 本手法の数学的定式化技術報告書 (LaTeX / PDF)
 │   │   └── paper/
 │   │       └── fnimg-4-1479569.pdf # 参照論文 (Gomez-Tapia et al., 2025)
 │   └── agy/                        # アーキテクチャ決定記録 (ADR)
@@ -96,5 +97,6 @@ gantt
 - **[docs/exp-reproduce/05-steps/](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/05-steps/)**: 各ステップ別 `main.py` 実装計画書（Step 0-A 〜 Step 5）
 - **[docs/exp-reproduce/06-orchestration.md](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/06-orchestration.md)**: パイプライン・オーケストレーション設計書（`main.py` 結合実行設計）
 - **[docs/exp-reproduce/outputs.md](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/outputs.md)**: Phase 1 成果・ノウハウ集約記録
+- **[docs/exp-reproduce/report/](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/report/)**: 本手法のステップ別数学的定式化技術報告書（LaTeX / PDF）
 - **[docs/agy/](file:///Users/shumasui/Documents/school/graduate-project/docs/agy/)**: アーキテクチャ決定記録 (ADR)
 - **[docs/exp-reproduce/paper/fnimg-4-1479569.pdf](file:///Users/shumasui/Documents/school/graduate-project/docs/exp-reproduce/paper/fnimg-4-1479569.pdf)**: 参照論文 (*Evaluation of EEG pre-processing and source localization in ecological research*)
