@@ -150,9 +150,9 @@ def run_pipeline(
     # -------------------------------------------------------------
     # 1. 共通モデルの構築 (Phase 1)
     # -------------------------------------------------------------
-    template_nii = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/mni_icbm152_t1_tal_nlin_sym_09c.nii"
-    cerebra_nii = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/CerebrA.nii"
-    cerebra_csv = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/CerebrA_LabelDetails.csv"
+    template_nii = "exp-reproduce/atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii"
+    cerebra_nii = "exp-reproduce/atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii"
+    cerebra_csv = "exp-reproduce/atlas/CerebrA_LabelDetails.csv"
     subjects_dir = "./subjects"
     
     bem_out, src_out, fwd_out = prepare_common_models(

@@ -30,7 +30,11 @@ def run_source_localization(
     if config is None:
         config = SourceLocConfig()
 
-    raw = eeg_out.raw
+    raw = eeg_out.raw.copy()
+    try:
+        raw.set_eeg_reference("average", projection=True, verbose=False)
+    except Exception:
+        pass
     forward = fwd_out.forward
     noise_cov = cov_out.noise_cov
     lambda2 = cov_out.lambda2

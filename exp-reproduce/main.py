@@ -111,9 +111,9 @@ def run_pipeline(
     subject_ids: List[str],
     conditions: List[str],
     output_dir: str = "./results",
-    template_nii_path: str = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/mni_icbm152_t1_tal_nlin_sym_09c.nii",
-    cerebra_nii_path: str = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/mni_icbm152_CerebrA_tal_nlin_sym_09c.mnc",
-    cerebra_csv_path: str = "docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/CerebrA_LabelDetails.csv",
+    template_nii_path: str = "atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii",
+    cerebra_nii_path: str = "atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii",
+    cerebra_csv_path: str = "atlas/CerebrA_LabelDetails.csv",
     subjects_dir: str = "./subjects",
     montage_name: str = "GSN-HydroCel-128",
     force_recompute_common: bool = False,
@@ -147,14 +147,32 @@ def run_pipeline(
     logger.info("==================================================")
     os.makedirs(output_dir, exist_ok=True)
 
+    # パス自動解決 (カレントディレクトリが repo root または exp-reproduce いずれにも対応)
+    def _resolve(p: str) -> str:
+        if os.path.exists(p):
+            return p
+        alt = os.path.join("exp-reproduce", p)
+        if os.path.exists(alt):
+            return alt
+        if p.startswith("exp-reproduce/"):
+            alt2 = p.replace("exp-reproduce/", "", 1)
+            if os.path.exists(alt2):
+                return alt2
+        return p
+
+    resolved_template = _resolve(template_nii_path)
+    resolved_cerebra_nii = _resolve(cerebra_nii_path)
+    resolved_cerebra_csv = _resolve(cerebra_csv_path)
+    resolved_subjects_dir = _resolve(subjects_dir)
+
     # ------------------------------------------------------------------
     # Phase 1: 共通モデルの準備 (Common Head Model & Lead Field)
     # ------------------------------------------------------------------
     bem_out, src_out, fwd_out = prepare_common_models(
-        template_nii_path=template_nii_path,
-        cerebra_nii_path=cerebra_nii_path,
-        cerebra_csv_path=cerebra_csv_path,
-        subjects_dir=subjects_dir,
+        template_nii_path=resolved_template,
+        cerebra_nii_path=resolved_cerebra_nii,
+        cerebra_csv_path=resolved_cerebra_csv,
+        subjects_dir=resolved_subjects_dir,
         montage_name=montage_name,
         force_recompute=force_recompute_common
     )

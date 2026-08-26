@@ -65,11 +65,11 @@ exp-reproduce/
 ---
 
 ### 3.2 CerebrA Atlas (Phase 1 共通モデル)
-- **対象データ**: `CerebrA.nii` および `CerebrA_LabelDetails.csv`
-- **配置先**: `exp-reproduce/atlas/`（または `docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/`）
+- **対象データ**: `mni_icbm152_CerebrA_tal_nlin_sym_09c.nii` および `CerebrA_LabelDetails.csv`
+- **配置先**: `exp-reproduce/atlas/`
 - **入手先**:
   - **ダウンロード元**: [CerebrA GIN Repository (anamanera/CerebrA)](https://gin.g-node.org/anamanera/CerebrA)
-  - ※ リポジトリ内 `docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/` にすでに CSV および MINC ファイルが存在します。NIfTI 形式が必要な場合は GIN から `CerebrA.nii.gz` をダウンロードして解凍・配置してください。
+  - ※ リポジトリ内 `exp-reproduce/atlas/` にすでに CSV および NIfTI ファイルが配置されています。
 
 ---
 

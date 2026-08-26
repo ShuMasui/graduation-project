@@ -74,3 +74,8 @@ venv.bak/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Data
+exp-reproduce/data/
+exp-reproduce/atlas/
+exp-reproduce/subjects

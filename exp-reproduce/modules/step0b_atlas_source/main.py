@@ -61,7 +61,6 @@ def run_atlas_source(
             spacing=config.spacing,
             surface=config.surface,
             subjects_dir=bem_out.subjects_dir,
-            overwrite=config.overwrite,
         )
         mne.write_source_spaces(src_file_path, src, overwrite=config.overwrite)
 

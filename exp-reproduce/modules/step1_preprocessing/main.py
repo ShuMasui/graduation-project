@@ -123,7 +123,7 @@ def run_preprocessing(
                     pass
 
         try:
-            raw.set_eeg_reference("average", projection=False, verbose=False)
+            raw.set_eeg_reference("average", projection=True, verbose=False)
         except Exception:
             pass
 

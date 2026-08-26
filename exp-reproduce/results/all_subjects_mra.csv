@@ -1,0 +1,187 @@
+subject_id,condition,region_name,mean_activation_na_m
+sub-01,rest,Caudal Anterior Cingulate-lh,7.249403500263284e-10
+sub-01,rest,Caudal Anterior Cingulate-rh,7.257574882115491e-10
+sub-01,rest,Caudal Middle Frontal-lh,1.5185351410226664e-09
+sub-01,rest,Caudal Middle Frontal-rh,1.5307926633139871e-09
+sub-01,rest,Cuneus-lh,1.2652627560445773e-09
+sub-01,rest,Cuneus-rh,8.30535305129961e-10
+sub-01,rest,Entorhinal-lh,3.099852329464642e-10
+sub-01,rest,Entorhinal-rh,3.0644894206512763e-10
+sub-01,rest,Fusiform-lh,4.680752353061171e-10
+sub-01,rest,Fusiform-rh,5.48865199946123e-10
+sub-01,rest,Inferior Parietal-lh,1.1206706143574978e-09
+sub-01,rest,Inferior Parietal-rh,1.0831317298942996e-09
+sub-01,rest,Inferior temporal-lh,6.204532961568412e-10
+sub-01,rest,Inferior temporal-rh,6.988023961313453e-10
+sub-01,rest,Isthmus Cingulate-lh,7.277013092904809e-10
+sub-01,rest,Isthmus Cingulate-rh,6.297313117433837e-10
+sub-01,rest,Lateral Occipital-lh,7.246185328182106e-10
+sub-01,rest,Lateral Occipital-rh,6.435445407410875e-10
+sub-01,rest,Lateral Orbitofrontal-lh,7.075815493694323e-10
+sub-01,rest,Lateral Orbitofrontal-rh,8.527553067673295e-10
+sub-01,rest,Lingual-lh,5.409588626731522e-10
+sub-01,rest,Lingual-rh,4.76032938836968e-10
+sub-01,rest,Medial Orbitofrontal-lh,3.657732163083456e-10
+sub-01,rest,Medial Orbitofrontal-rh,4.964565030756717e-10
+sub-01,rest,Middle Temporal-lh,8.093817038707486e-10
+sub-01,rest,Middle Temporal-rh,9.347042922004232e-10
+sub-01,rest,Parahippocampal-lh,2.395779278454063e-10
+sub-01,rest,Parahippocampal-rh,2.985624912165258e-10
+sub-01,rest,Paracentral-lh,1.5332399165287403e-09
+sub-01,rest,Paracentral-rh,1.3156707271258954e-09
+sub-01,rest,Pars Opercularis-lh,9.523873619606175e-10
+sub-01,rest,Pars Opercularis-rh,9.266152577592521e-10
+sub-01,rest,Pars Orbitalis-lh,1.121693582805337e-09
+sub-01,rest,Pars Orbitalis-rh,1.1583275842855728e-09
+sub-01,rest,Pars Triangularis-lh,1.2745114548528023e-09
+sub-01,rest,Pars Triangularis-rh,1.312157269743395e-09
+sub-01,rest,Pericalcarine-lh,1.0316030871275375e-09
+sub-01,rest,Pericalcarine-rh,7.312638203120596e-10
+sub-01,rest,Postcentral-lh,9.904761883824482e-10
+sub-01,rest,Postcentral-rh,1.0576598251620703e-09
+sub-01,rest,Posterior Cingulate-lh,8.00412581016023e-10
+sub-01,rest,Posterior Cingulate-rh,6.779124167275934e-10
+sub-01,rest,Precentral-lh,1.2332752864302311e-09
+sub-01,rest,Precentral-rh,1.074448033196213e-09
+sub-01,rest,Precuneus-lh,1.524427274795919e-09
+sub-01,rest,Precuneus-rh,1.1515216758366091e-09
+sub-01,rest,Rostral Anterior Cingulate-lh,4.3958852249866567e-10
+sub-01,rest,Rostral Anterior Cingulate-rh,4.892449185547092e-10
+sub-01,rest,Rostral Middle Frontal-lh,1.6572030513486224e-09
+sub-01,rest,Rostral Middle Frontal-rh,1.7649368436842824e-09
+sub-01,rest,Superior Frontal-lh,1.5250176908831204e-09
+sub-01,rest,Superior Frontal-rh,1.7548795120561956e-09
+sub-01,rest,Superior Parietal-lh,2.0294419020858097e-09
+sub-01,rest,Superior Parietal-rh,1.8175744907310402e-09
+sub-01,rest,Superior Temporal-lh,7.085676004198013e-10
+sub-01,rest,Superior Temporal-rh,7.354127892423111e-10
+sub-01,rest,Supramarginal-lh,1.1219775766798836e-09
+sub-01,rest,Supramarginal-rh,1.1439479705143978e-09
+sub-01,rest,Transverse Temporal-lh,4.1809152630660237e-10
+sub-01,rest,Transverse Temporal-rh,4.664733815445068e-10
+sub-01,rest,Insula-lh,3.793201590830001e-10
+sub-01,rest,Insula-rh,3.9145752831570375e-10
+sub-01,video1,Caudal Anterior Cingulate-lh,6.710664080717921e-10
+sub-01,video1,Caudal Anterior Cingulate-rh,6.266679360408128e-10
+sub-01,video1,Caudal Middle Frontal-lh,1.2957410710696245e-09
+sub-01,video1,Caudal Middle Frontal-rh,9.654422131069752e-10
+sub-01,video1,Cuneus-lh,6.485935218310773e-10
+sub-01,video1,Cuneus-rh,5.930920333754819e-10
+sub-01,video1,Entorhinal-lh,2.573541355827149e-10
+sub-01,video1,Entorhinal-rh,3.0311428696460825e-10
+sub-01,video1,Fusiform-lh,4.311687194566556e-10
+sub-01,video1,Fusiform-rh,5.149100254468357e-10
+sub-01,video1,Inferior Parietal-lh,8.057294323232541e-10
+sub-01,video1,Inferior Parietal-rh,9.083939288574045e-10
+sub-01,video1,Inferior temporal-lh,5.78327516809812e-10
+sub-01,video1,Inferior temporal-rh,6.658378280291152e-10
+sub-01,video1,Isthmus Cingulate-lh,4.690811175082216e-10
+sub-01,video1,Isthmus Cingulate-rh,4.415046208214578e-10
+sub-01,video1,Lateral Occipital-lh,5.416831653805208e-10
+sub-01,video1,Lateral Occipital-rh,5.897393860091991e-10
+sub-01,video1,Lateral Orbitofrontal-lh,3.9733766765297614e-10
+sub-01,video1,Lateral Orbitofrontal-rh,4.160305992750011e-10
+sub-01,video1,Lingual-lh,3.367022117514743e-10
+sub-01,video1,Lingual-rh,3.591728398389437e-10
+sub-01,video1,Medial Orbitofrontal-lh,2.1861890284814767e-10
+sub-01,video1,Medial Orbitofrontal-rh,2.359929001153131e-10
+sub-01,video1,Middle Temporal-lh,7.414777573698828e-10
+sub-01,video1,Middle Temporal-rh,8.709142015185243e-10
+sub-01,video1,Parahippocampal-lh,2.45740174260863e-10
+sub-01,video1,Parahippocampal-rh,2.8115710402227543e-10
+sub-01,video1,Paracentral-lh,1.750847621761371e-09
+sub-01,video1,Paracentral-rh,1.2929271894505882e-09
+sub-01,video1,Pars Opercularis-lh,8.018541187228942e-10
+sub-01,video1,Pars Opercularis-rh,5.996294186689184e-10
+sub-01,video1,Pars Orbitalis-lh,7.150236313422131e-10
+sub-01,video1,Pars Orbitalis-rh,7.910767394834499e-10
+sub-01,video1,Pars Triangularis-lh,9.399711700213345e-10
+sub-01,video1,Pars Triangularis-rh,8.538441178740208e-10
+sub-01,video1,Pericalcarine-lh,5.009968574165335e-10
+sub-01,video1,Pericalcarine-rh,5.150986014916616e-10
+sub-01,video1,Postcentral-lh,8.781152299365992e-10
+sub-01,video1,Postcentral-rh,7.372048445166096e-10
+sub-01,video1,Posterior Cingulate-lh,8.736926462514258e-10
+sub-01,video1,Posterior Cingulate-rh,6.855175309293353e-10
+sub-01,video1,Precentral-lh,1.095517254950543e-09
+sub-01,video1,Precentral-rh,7.565027752224186e-10
+sub-01,video1,Precuneus-lh,8.888830496044189e-10
+sub-01,video1,Precuneus-rh,7.357031601412238e-10
+sub-01,video1,Rostral Anterior Cingulate-lh,3.2572497852611903e-10
+sub-01,video1,Rostral Anterior Cingulate-rh,3.869008105106223e-10
+sub-01,video1,Rostral Middle Frontal-lh,1.1011757065903109e-09
+sub-01,video1,Rostral Middle Frontal-rh,9.1805744286781e-10
+sub-01,video1,Superior Frontal-lh,1.1892172841800348e-09
+sub-01,video1,Superior Frontal-rh,1.1447784524459062e-09
+sub-01,video1,Superior Parietal-lh,1.8130739497082884e-09
+sub-01,video1,Superior Parietal-rh,1.0333207737461265e-09
+sub-01,video1,Superior Temporal-lh,6.005513373321566e-10
+sub-01,video1,Superior Temporal-rh,6.252318893886653e-10
+sub-01,video1,Supramarginal-lh,8.89199951686686e-10
+sub-01,video1,Supramarginal-rh,7.721837493848524e-10
+sub-01,video1,Transverse Temporal-lh,3.8852832368247906e-10
+sub-01,video1,Transverse Temporal-rh,3.6716772040814364e-10
+sub-01,video1,Insula-lh,3.269138604838328e-10
+sub-01,video1,Insula-rh,3.1508392314924466e-10
+sub-02,video1,Caudal Anterior Cingulate-lh,1.1618469356812996e-09
+sub-02,video1,Caudal Anterior Cingulate-rh,8.891072463110517e-10
+sub-02,video1,Caudal Middle Frontal-lh,1.7639054062021838e-09
+sub-02,video1,Caudal Middle Frontal-rh,1.408830303038334e-09
+sub-02,video1,Cuneus-lh,1.3292336481435508e-09
+sub-02,video1,Cuneus-rh,1.4800694925841743e-09
+sub-02,video1,Entorhinal-lh,1.0615865818050643e-09
+sub-02,video1,Entorhinal-rh,6.081843888877441e-10
+sub-02,video1,Fusiform-lh,1.7946939992016884e-09
+sub-02,video1,Fusiform-rh,1.1734984605149217e-09
+sub-02,video1,Inferior Parietal-lh,2.4015862141308362e-09
+sub-02,video1,Inferior Parietal-rh,1.2805193709738769e-09
+sub-02,video1,Inferior temporal-lh,2.1947326042882556e-09
+sub-02,video1,Inferior temporal-rh,1.0910508687019272e-09
+sub-02,video1,Isthmus Cingulate-lh,7.441825704690139e-10
+sub-02,video1,Isthmus Cingulate-rh,8.179633936690549e-10
+sub-02,video1,Lateral Occipital-lh,2.4486456125684284e-09
+sub-02,video1,Lateral Occipital-rh,1.8294072998293857e-09
+sub-02,video1,Lateral Orbitofrontal-lh,1.665842961252063e-09
+sub-02,video1,Lateral Orbitofrontal-rh,1.0422696832962452e-09
+sub-02,video1,Lingual-lh,1.2547305870895878e-09
+sub-02,video1,Lingual-rh,1.3101053859119699e-09
+sub-02,video1,Medial Orbitofrontal-lh,7.891562440151646e-10
+sub-02,video1,Medial Orbitofrontal-rh,8.973923348345912e-10
+sub-02,video1,Middle Temporal-lh,2.340347690821462e-09
+sub-02,video1,Middle Temporal-rh,1.1496598126780195e-09
+sub-02,video1,Parahippocampal-lh,1.0642643552506548e-09
+sub-02,video1,Parahippocampal-rh,6.12515095501228e-10
+sub-02,video1,Paracentral-lh,1.1001006706239389e-09
+sub-02,video1,Paracentral-rh,1.2310847324931489e-09
+sub-02,video1,Pars Opercularis-lh,1.6417083317698966e-09
+sub-02,video1,Pars Opercularis-rh,1.1782745357117543e-09
+sub-02,video1,Pars Orbitalis-lh,2.3942920963347907e-09
+sub-02,video1,Pars Orbitalis-rh,1.1873365865091635e-09
+sub-02,video1,Pars Triangularis-lh,3.0055918683849034e-09
+sub-02,video1,Pars Triangularis-rh,1.6022505712972045e-09
+sub-02,video1,Pericalcarine-lh,1.4493970559229206e-09
+sub-02,video1,Pericalcarine-rh,1.703231520033656e-09
+sub-02,video1,Postcentral-lh,2.0004931884728657e-09
+sub-02,video1,Postcentral-rh,1.0650568433834795e-09
+sub-02,video1,Posterior Cingulate-lh,7.577712812878458e-10
+sub-02,video1,Posterior Cingulate-rh,7.001038054209129e-10
+sub-02,video1,Precentral-lh,1.6150361364680908e-09
+sub-02,video1,Precentral-rh,1.1798370986845184e-09
+sub-02,video1,Precuneus-lh,1.3816938267100119e-09
+sub-02,video1,Precuneus-rh,1.5409216771551885e-09
+sub-02,video1,Rostral Anterior Cingulate-lh,8.954336052052106e-10
+sub-02,video1,Rostral Anterior Cingulate-rh,8.070290898962821e-10
+sub-02,video1,Rostral Middle Frontal-lh,3.4313871336859663e-09
+sub-02,video1,Rostral Middle Frontal-rh,1.8276413034453565e-09
+sub-02,video1,Superior Frontal-lh,2.985314354926895e-09
+sub-02,video1,Superior Frontal-rh,1.9538285199767758e-09
+sub-02,video1,Superior Parietal-lh,1.817762646345093e-09
+sub-02,video1,Superior Parietal-rh,1.622642914888829e-09
+sub-02,video1,Superior Temporal-lh,1.7597073755268796e-09
+sub-02,video1,Superior Temporal-rh,8.803315702227519e-10
+sub-02,video1,Supramarginal-lh,2.6504530702187846e-09
+sub-02,video1,Supramarginal-rh,1.1936709989000191e-09
+sub-02,video1,Transverse Temporal-lh,8.741406168021017e-10
+sub-02,video1,Transverse Temporal-rh,5.283205879602925e-10
+sub-02,video1,Insula-lh,6.914942151662527e-10
+sub-02,video1,Insula-rh,4.938225272520615e-10

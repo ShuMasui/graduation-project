@@ -450,14 +450,14 @@ from modules.step5_stats_visualization.types import StatsVizConfig
 def main():
     print("=== [Phase 1] 共通モデル構築開始 ===")
     bem_cfg = GeometryBEMConfig(
-        template_nii_path="docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/mni_icbm152_t1_tal_nlin_sym_09c.nii",
+        template_nii_path="exp-reproduce/atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii",
         subjects_dir="./subjects"
     )
     bem_out = run_geometry_bem(bem_cfg)
 
     atlas_cfg = AtlasSourceConfig(
-        cerebra_nii_path="docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/CerebrA.nii",
-        cerebra_csv_path="docs/exp-reproduce/mni_icbm152_nlin_sym_09c_CerebrA_minc2/CerebrA_LabelDetails.csv"
+        cerebra_nii_path="exp-reproduce/atlas/mni_icbm152_CerebrA_tal_nlin_sym_09c.nii",
+        cerebra_csv_path="exp-reproduce/atlas/CerebrA_LabelDetails.csv"
     )
     src_out = run_atlas_source(bem_out, atlas_cfg)
 
