@@ -255,9 +255,12 @@ def run_pipeline(
         n_permutations=n_permutations,
         p_threshold=p_threshold,
         output_dir=output_dir,
-        random_state=random_state
+        random_state=random_state,
+        subjects_dir=resolved_subjects_dir,
+        subject_name=bem_out.subject_name if hasattr(bem_out, "subject_name") else "icbm152",
+        src_out=src_out
     )
-    stats_out = run_stats_visualization(all_subjects_mra_df, viz_cfg)
+    stats_out = run_stats_visualization(all_subjects_mra_df, viz_cfg, src_out=src_out)
 
     elapsed_time = time.time() - pipeline_start_time
     logger.info("==================================================")
